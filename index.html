@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>LaunchCake</title>
+</head>
+<body>
+    <header>
+        <nav><a href="./pastelero.html">Zona del Pastelero</a></nav>
+        <h1>Pasteleria LaunchCake</h1>
+        <img src="./img/LaunchCake.png" alt="">
+    </header>
+    <section id="productos">
+        <h2>Catalogo de pasteles</h2>
+        <div class="list-items">
+            <article>
+                <div class="photo-cake">
+                    <img src="./img/PastelChocolate.jpg" alt="imagen de pastel de chocolate">
+                </div>
+                <div class="description-cake">
+                    <p>Pastel de chocolate</p>
+                    <p>$50</p>
+                    <p>Tiene 3 pisos es ideal para repartir entre bastante gente.</p>
+                </div>
+            </article>
+            <article>
+                <div class="photo-cake">
+                    <img src="./img/PastelVainilla.png" alt="imagen de paste de vainilla">
+                </div>
+                <div class="description-cake">
+                    <p>Pastel de vainilla</p>
+                    <p>$60</p>
+                    <p>Tiene 2 pisos, relleno con vainilla, bajo en azucar.</p>
+                </div>
+            </article>
+            <article>
+                <div class="photo-cake">
+                    <img src="./img/PastelLimon.jpg" alt="imagen de pastel de limon">
+                </div>
+                <div class="description-cake">
+                    <p>Pastel de limon</p>
+                    <p>$55</p>
+                    <p>Un delicioso pastel de limón con ron, digno de celebrar.</p>
+                </div>
+            </article> 
+        </div>
+    </section>
+    <section id="adornos">
+        <h2>Catalogo de adornos</h3>
+        <div class="list-items">
+            <article>
+                <div class="photo-decoration">
+                    <img src="./img/AdornoCaramelos.jpg" alt="imagen de Caramelos">
+                </div>
+                <div class="description-decoration">
+                    <p>Caramelos</p>
+                    <p>$10</p>
+                </div>
+            </article>
+            <article>
+                <div class="photo-decoration">
+                    <img src="./img/AdornoGlobos.jpg" alt="imagen de globos">
+                </div>
+                <div class="description-decoration">
+                    <p>Globos</p>
+                    <p>$0.2 por unidad</p>
+                </div>
+            </article>
+            <article>
+                <div class="photo-decoration">
+                    <img src="./img/AdornoVelas.jpg" alt="imagen de velas">
+                </div>
+                <div class="description-decoration">
+                    <p>Velas</p>
+                    <p>$0.4 por unidad</p>
+                </div>
+            </article>
+        </div>
+    </section>
+    <section id="formulario">
+        <h2>Formulario de Pedido</h2>
+        <form action="" id="formpedido">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" placeholder="¿Tu nombre?">
+            <br><br>
+            <label for="telefono">Telefono:</label>
+            <input type="tel" name="telefono" id="telefono" maxlength="9" placeholder="¿Tu telefono?">
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="ejemplo@gmail.com">
+            <br><br>
+            <label for="direccion">Direccion:</label>
+            <input type="text" name="direccion" id="direccion" placeholder="¿A donde lo enviamos?">
+            <br>
+            <p>¿Que sabores desea?</p>
+            <input type="checkbox" name="chocolate" id="chocolate">
+            <label for="chocolate">Chocolate</label>
+            <br>
+            <input type="checkbox" name="vainilla" id="vainilla">
+            <label for="vainilla">Vainilla</label>
+            <br>
+            <input type="checkbox" name="limon" id="limon">
+            <label for="limon">Limon</label>
+            <br>
+            <p>¿Que adornos desea en su pastel?</p>
+            <input type="checkbox" name="vela" id="vela">
+            <label for="vela">Velas</label>
+            <input type="number" name="vela" id="velaNum" min="0" placeholder="¿Cuantos?">
+            <br><br>
+            <input type="checkbox" name="globo" id="globo">
+            <label for="globo">Globos</label>
+            <input type="number" name="globo" id="globoNum" min="0" placeholder="¿Cuantos?">
+            <br><br>
+            <input type="checkbox" name="caramelo" id="caramelo">
+            <label for="caramelo">Caramelos</label>
+            <br><br>
+            <input type="submit" value="Hacer Pedido">
+        </form>
+    </section>
+    <section id="informacion">
+        <h2>Sobre Nosotros</h2>
+        <div id="datos">
+            <p>Estamos comprometidos en ofrecer productos de la mejor calidad asi como una tencion amable y esmerada, es por eso que en LaunchCake horneamos y creamos una maravillosa colección de postres frescos que todos los días rellenamos de cremas saludables, mermeladas y sabores explosivos. Llámanos al <b>929537960</b> para obtener más información sobre nuestros servicio.</p>
+    
+            <h2>Ubicanos</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Distrito</th>
+                        <th>Ubicacion</th>
+                        <th>Horario</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Puente Piedra</td>
+                        <td><a href="https://goo.gl/maps/cRQXFxMTrXM8Pdgh9">Av. Puente Piedra 255, Puente Piedra 15118</a></td>
+                        <td>L - D 9am - 8pm</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <footer>
+
+    </footer>
+</body>
+</html>

@@ -1,0 +1,45 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #fdeeee;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+}
+
+/* Logo */
+header{
+    width: 100%;
+    text-align: center;
+}
+
+header img{
+    border-radius: 50%;
+    width: 40%;
+    margin-bottom: 5px;
+}
+
+/* Tablas */
+section{
+    margin: 5px;
+    width: 100%;
+}
+section table{
+    width: 90%;
+    text-align: center;
+    border: 2px solid #f5aeae;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+tr th{
+    background-color: bisque;
+    padding: 2px 0px 2px 0px;
+}
+tr td{
+    padding: 4px;
+}
